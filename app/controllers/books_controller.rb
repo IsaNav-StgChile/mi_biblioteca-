@@ -11,7 +11,7 @@ class BooksController < ApplicationController
     end
 
     def new
-        @books = Book.new
+        @book = Book.new
         @statuses = Book.statuses.keys 
     end
 
